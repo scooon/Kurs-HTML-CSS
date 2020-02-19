@@ -3,8 +3,9 @@ html{
 }
 
 #header{
-    background-color: rgba(255,255,255,0.8);
-    height: 25%;
+    background: rgb(20,20,20);
+    background: linear-gradient(0deg, rgba(20,20,20,0.5) 0%, rgba(20,20,20,0.5) 35%, rgba(200,200,200,0.2) 100%);
+    padding: 2% 0;
 }
 
 ul {
@@ -30,6 +31,20 @@ body{
 #menu{
     float:left;
     width:20%;
+}
+
+li{
+    text-align: center;
+    text-decoration: none;
+    padding: 0.75em 0;
+}
+
+ul a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    height: 100%;
+    
 }
 
 #content{
